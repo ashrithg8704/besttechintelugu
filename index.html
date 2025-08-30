@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanthu Devarakonda - Best Tech in Telugu</title>
+    <meta name="description" content="Official website of Kanthu Devarakonda, creator of Best Tech in Telugu YouTube channel. Tech reviews, gadgets, and technology insights in Telugu.">
+    <meta name="keywords" content="Kanthu Devarakonda, Best Tech in Telugu, Telugu tech reviews, technology, gadgets, YouTube">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/channels4_profile.jpg" alt="Best Tech in Telugu" class="logo-img">
+                <span class="logo-text">Best Tech in Telugu</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#videos" class="nav-link">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Kanthu Devarakonda</span>
+                </h1>
+                <h2 class="hero-subtitle">Creator of Best Tech in Telugu</h2>
+                <p class="hero-description">
+                    Bringing you the latest technology reviews, gadget insights, and tech advice in Telugu. 
+                    Join thousands of tech enthusiasts who trust my recommendations.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#videos" class="btn btn-primary">Watch Videos</a>
+                    <a href="https://youtube.com/@besttechintelugu" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-youtube"></i> Subscribe
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="250">0</span>
+                        <span class="stat-label">K+ Subscribers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="90">0</span>
+                        <span class="stat-label">+ Videos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="150">0</span>
+                        <span class="stat-label">K+ Views</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="assets/images/8zQiNpOW_400x400.jpg" alt="Kanthu Devarakonda" class="hero-img">
+                <div class="hero-bg-elements">
+                    <div class="floating-element element-1"></div>
+                    <div class="floating-element element-2"></div>
+                    <div class="floating-element element-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#videos" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Latest Videos</h2>
+                <p class="section-description">Check out my recent tech reviews and insights</p>
+            </div>
+            
+            <div class="video-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All Videos</button>
+                <button class="filter-btn" data-filter="reviews">Reviews</button>
+                <button class="filter-btn" data-filter="tutorials">Tutorials</button>
+                <button class="filter-btn" data-filter="unboxing">Unboxing</button>
+            </div>
+            
+            <div class="videos-grid" id="videos-grid">
+                <!-- Videos will be loaded dynamically -->
+            </div>
+            
+            <div class="load-more-container" data-aos="fade-up">
+                <button class="btn btn-outline" id="load-more-videos">Load More Videos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Tech Articles & Insights</h2>
+                <p class="section-description">In-depth articles about technology trends and reviews</p>
+            </div>
+            
+            <div class="blog-grid" id="blog-grid">
+                <!-- Blog posts will be loaded here -->
+            </div>
+            
+            <div class="blog-cta" data-aos="fade-up">
+                <a href="blog.html" class="btn btn-primary">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title">About Kanthu Devarakonda</h2>
+                    <p class="about-description">
+                        Welcome to my world of technology! I'm Kanthu Devarakonda, the creator behind 
+                        "Best Tech in Telugu" - a YouTube channel dedicated to bringing you honest, 
+                        detailed tech reviews and insights in Telugu.
+                    </p>
+                    <p class="about-description">
+                        With years of experience in the tech industry, I help Telugu-speaking audiences 
+                        make informed decisions about their technology purchases. From smartphones and 
+                        laptops to gadgets and accessories, I cover it all with detailed analysis and 
+                        practical advice.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-video"></i>
+                            <div>
+                                <h4>Content Creator</h4>
+                                <p>Creating engaging tech content in Telugu</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <h4>Tech Reviewer</h4>
+                                <p>Honest reviews and recommendations</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Community Builder</h4>
+                                <p>Building a strong tech community</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image" data-aos="fade-left">
+                    <img src="assets/images/images.jpeg" alt="Kanthu Devarakonda About" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Have questions or collaboration ideas? Let's connect!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>kanthu@besttechintelugu.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link telegram">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="Best Tech in Telugu">
+                        <span>Best Tech in Telugu</span>
+                    </div>
+                    <p>Your trusted source for technology reviews and insights in Telugu.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Smartphone Reviews</a></li>
+                        <li><a href="#">Laptop Reviews</a></li>
+                        <li><a href="#">Gadget Unboxing</a></li>
+                        <li><a href="#">Tech Tutorials</a></li>
+                        <li><a href="#">Buying Guides</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kanthu Devarakonda - Best Tech in Telugu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/youtube-api.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

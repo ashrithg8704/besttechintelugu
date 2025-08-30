@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Kanthu Devarakonda | Best Tech in Telugu</title>
+    <meta name="description" content="Tech articles, reviews, and insights by Kanthu Devarakonda. In-depth analysis of latest technology trends and gadgets.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/channels4_profile.jpg" alt="Best Tech in Telugu" class="logo-img">
+                <span class="logo-text">Best Tech in Telugu</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#videos" class="nav-link">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <section class="blog-header">
+        <div class="container">
+            <div class="blog-header-content" data-aos="fade-up">
+                <h1 class="blog-header-title">Tech Articles & Insights</h1>
+                <p class="blog-header-description">
+                    Deep dives into technology, detailed reviews, and expert insights to help you make informed decisions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Filters -->
+    <section class="blog-filters-section">
+        <div class="container">
+            <div class="blog-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Articles</button>
+                <button class="filter-btn" data-filter="reviews">Reviews</button>
+                <button class="filter-btn" data-filter="guides">Buying Guides</button>
+                <button class="filter-btn" data-filter="trends">Tech Trends</button>
+                <button class="filter-btn" data-filter="tutorials">Tutorials</button>
+            </div>
+            
+            <div class="blog-search" data-aos="fade-up" data-aos-delay="100">
+                <div class="search-container">
+                    <input type="text" id="blog-search" placeholder="Search articles...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content-section">
+        <div class="container">
+            <div class="blog-layout">
+                <main class="blog-main">
+                    <div class="blog-grid" id="blog-articles-grid">
+                        <!-- Articles will be loaded here -->
+                    </div>
+                    
+                    <div class="pagination" id="blog-pagination">
+                        <!-- Pagination will be generated here -->
+                    </div>
+                </main>
+                
+                <aside class="blog-sidebar" data-aos="fade-left">
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Popular Articles</h3>
+                        <div class="popular-articles" id="popular-articles">
+                            <!-- Popular articles will be loaded here -->
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Categories</h3>
+                        <div class="categories-list">
+                            <a href="#" class="category-link" data-category="reviews">
+                                <span>Product Reviews</span>
+                                <span class="category-count">12</span>
+                            </a>
+                            <a href="#" class="category-link" data-category="guides">
+                                <span>Buying Guides</span>
+                                <span class="category-count">8</span>
+                            </a>
+                            <a href="#" class="category-link" data-category="trends">
+                                <span>Tech Trends</span>
+                                <span class="category-count">6</span>
+                            </a>
+                            <a href="#" class="category-link" data-category="tutorials">
+                                <span>Tutorials</span>
+                                <span class="category-count">10</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Subscribe to Newsletter</h3>
+                        <p class="widget-description">Get the latest tech insights delivered to your inbox.</p>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Follow Me</h3>
+                        <div class="sidebar-social">
+                            <a href="#" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link telegram">
+                                <i class="fab fa-telegram"></i>
+                                <span>Telegram</span>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="Best Tech in Telugu">
+                        <span>Best Tech in Telugu</span>
+                    </div>
+                    <p>Your trusted source for technology reviews and insights in Telugu.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#videos">Videos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Smartphone Reviews</a></li>
+                        <li><a href="#">Laptop Reviews</a></li>
+                        <li><a href="#">Gadget Unboxing</a></li>
+                        <li><a href="#">Tech Tutorials</a></li>
+                        <li><a href="#">Buying Guides</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kanthu Devarakonda - Best Tech in Telugu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>
